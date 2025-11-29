@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     'Home',
+    'doctor',
 ]
 
 MIDDLEWARE = [
@@ -80,9 +81,9 @@ WSGI_APPLICATION = 'quickmed.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quickmed2',          # your database name
+        'NAME': '2911',          # your database name
         'USER': 'postgres',          # default postgres superuser
-        'PASSWORD':'12345', # enter your postgres password
+        'PASSWORD':'1234', # enter your postgres password
         'HOST': 'localhost',
         'PORT': '5432',
     } 
